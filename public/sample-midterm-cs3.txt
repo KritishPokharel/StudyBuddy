@@ -1,0 +1,91 @@
+================================================================================
+                    COMPUTER SCIENCE III - MIDTERM EXAMINATION
+                              Fall 2024
+================================================================================
+
+Student Name: John Doe
+Student ID: CS2024-12345
+Date: October 15, 2024
+Total Marks: 50
+
+================================================================================
+                              EXAM QUESTIONS
+================================================================================
+
+QUESTION 1 (10 marks)
+--------------------------------------------------------------------------------
+Explain the time complexity of Merge Sort algorithm. Provide a detailed analysis
+of both best-case and worst-case scenarios.
+
+STUDENT ANSWER:
+Merge sort has a time complexity of O(n log n) in all cases because it divides
+the array into halves recursively and then merges them. The divide step takes
+O(log n) and the merge step takes O(n), so overall it's O(n log n).
+
+MARKS: 8/10 | STATUS: Partially Correct
+
+================================================================================
+
+QUESTION 2 (10 marks)
+--------------------------------------------------------------------------------
+What data structure does Depth-First Search (DFS) use? Explain why.
+
+STUDENT ANSWER:
+DFS uses a queue data structure to keep track of nodes to visit.
+
+MARKS: 0/10 | STATUS: Incorrect
+
+================================================================================
+
+QUESTION 3 (10 marks)
+--------------------------------------------------------------------------------
+Given the following code snippet, what is its time complexity?
+  for (int i = 0; i < n; i *= 2) {
+      // some O(1) operation
+  }
+
+STUDENT ANSWER:
+The time complexity is O(n) because the loop runs n times.
+
+MARKS: 0/10 | STATUS: Incorrect
+
+================================================================================
+
+QUESTION 4 (10 marks)
+--------------------------------------------------------------------------------
+Explain the difference between a Binary Search Tree (BST) and a Balanced BST.
+What is the worst-case time complexity for insertion in each?
+
+STUDENT ANSWER:
+A BST is a tree where left child < parent < right child. A balanced BST maintains
+this property but also keeps the tree height-balanced. Insertion in BST is always
+O(log n), and in balanced BST it's also O(log n).
+
+MARKS: 6/10 | STATUS: Partially Correct
+
+================================================================================
+
+QUESTION 5 (10 marks)
+--------------------------------------------------------------------------------
+What is the space complexity of the recursive implementation of Fibonacci
+using memoization? Explain your answer.
+
+STUDENT ANSWER:
+The space complexity is O(n) because we need to store n values in the memoization
+table, and the recursion stack also takes O(n) space.
+
+MARKS: 10/10 | STATUS: Correct
+
+================================================================================
+
+                              END OF EXAM
+================================================================================
+
+TOTAL MARKS RECEIVED: 24/50
+PERCENTAGE: 48%
+
+GRADER SIGNATURE: Prof. Smith
+DATE GRADED: October 20, 2024
+
+================================================================================
+
