@@ -368,5 +368,3 @@ The backend runs as a Python service. For production, use a process manager like
 - **Tesseract OCR**: https://github.com/tesseract-ocr/tesseract
 
 ---
-
-**Note**: Make sure to keep your `.env` files secure and never commit them to version control. They are already in `.gitignore`.
