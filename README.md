@@ -367,14 +367,6 @@ The backend runs as a Python service. For production, use a process manager like
 - **Perplexity API**: https://www.perplexity.ai/
 - **Tesseract OCR**: https://github.com/tesseract-ocr/tesseract
 
-## 📄 License
-
-[Add your license here]
-
-## 🤝 Contributing
-
-[Add contribution guidelines here]
-
 ---
 
 **Note**: Make sure to keep your `.env` files secure and never commit them to version control. They are already in `.gitignore`.
